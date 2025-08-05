@@ -1,5 +1,4 @@
-from slow_print import slow_print
-from slow_print import slow_input
+from slow_print import *
 
 gpt_name = "PookieGPT"
 

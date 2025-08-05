@@ -1,6 +1,4 @@
-from chatbox import Chat
-from chatbox import general_quest
-from chatbox import gpt_name
+from chatbox import Chat, gpt_name, general_quest
 
 
 if __name__ == '__main__':
