@@ -1,7 +1,6 @@
 from random import choice
 from slow_print import slow_input, slow_print
 import json
-import random
 
 class PookieGPT:
     def __init__(self, name="PookieGPT", delay=(0.01, 0.06)):
@@ -53,12 +52,12 @@ class PookieGPT:
             if whadado == "1":
                 bot.con_talk()
             elif whadado == "2":
-                bot.chat("Sure! What do you wanna talk about? 🗨️")
+                slow_print("Sure! What do you wanna talk about? 🗨️")
             elif whadado == "3":
-                bot.chat("Okay, bye bye~ ✨")
+                slow_print("Okay, bye bye~ ✨")
                 break
             else:
-                bot.chat("I didn't understand that... try 1, 2, or 3 💬")
+                slow_print("I didn't understand that... try 1, 2, or 3 💬")
                 break
                     
             
