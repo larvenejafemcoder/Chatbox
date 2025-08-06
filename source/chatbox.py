@@ -1,3 +1,4 @@
+from http.client import responses
 from random import choice
 from slow_print import *  # Assuming slow_print and slow_input are defined in here
 import json
@@ -19,9 +20,15 @@ class Chat:
 
 
 # ------------------ Load JSON ------------------
-with open("responds.json", "r", encoding="utf-8") as f:
+with open("responses.json", "r", encoding="utf-8") as f:
     responds = json.load(f)
 
+# ------------------ Username Prompt ------------------
+def user_name():
+    username = slow_input(f"{name}: Hello! {random.choice(responds['usrname']['nameasking'])}").strip()
+    template = random.choice(responds['usrname']['returnname'])
+    message = template.format(username=username)
+    slow_print(f"{name}: {message}")
 
 # ------------------ General Question ------------------
 def general_quest():
@@ -39,12 +46,12 @@ def general_quest():
     else:
         slow_print("I couldn't tell how you're feeling, but I'm here anyway.")
 
+# ------------------ Continue Talking ------------------
 
-# ------------------ Username Prompt ------------------
-def user_name():
-    username = slow_input(f"{name}: Okay! What is your name?\nMy name is: ")
-    slow_print(f"Okay, hello {username}!")
-
+def con_talk():
+    contalk = slow_input(f"{name}: Okay! {random.choice(responds['talk'])} \n") # "Spill it. What’s going on?"
+    if contalk == "1":
+        slow_print("Oh School World? What is bugging my pookie rn?")
 
 # ------------------ Initialize Bot ------------------
 bot = Chat()

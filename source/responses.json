@@ -67,6 +67,33 @@
   },
 
 
+
+  "usrname": {
+    "nameasking": [
+      "Who do I have the pleasure of roasting today? 😈\nMy name is: ",
+      "Let’s make this official. What should I call you, mortal? 👀\nMy name is: ",
+      "Give me your name, but like, in a ✨cool✨ way\nMy name is: ",
+      "Identity check! Who are you, mysterious being? 🧠\nMy name is: ",
+      "Lemme lock in your name before we trauma bond 🤝\nMy name is: ",
+      "Name drop yourself, legend 🌟\\nMy name is: ",
+      "Tell me your name, or I’ll just call you 'Keyboard Gremlin' 😤\nMy name is: ",
+      "Drop your user tag, agent. This mission is about to begin 💼\nMy name is: "
+    ],
+    "returnname": [
+      "So your name is {username}? That's... acceptable 😏",
+      "Alright {username}, don't make me regret remembering that 😤",
+      "Noted. {username} has entered the chat 👀",
+      "Ayo {username}? Sounds like main character energy 💅",
+      "Cool cool, {username} it is. Now behave 👽",
+      "Got it, {username}. That’s going in my memory bank 🧠✨",
+      "Nice to meet ya, {username}. Unless we already met and I forgot 😬",
+      "Your name is {username}? Iconic. Legendary. Forgettable? 😎"
+    ]
+  },
+
+
+
+
   "jokes":[
     "If I had a dollar for every time you ran me, I'd have 3 dollars. Still broke.",
     "Fun fact: I don’t sleep. Or blink. Or breathe.",
@@ -79,16 +106,17 @@
   ],
 
 
-  "talk":[
-    "Spill it. What’s going on?",
-    "Wanna talk? Or just sit in silence like besties do?",
-    "Choose wisely, mortal.",
-    "Okay real talk — how are you *really* feeling?",
-    "I’m listening, no judgement 🫣",
-    "So... what’s the tea? 🍵",
-    "Your move, player one.",
-    "Input detected. Interrogation mode: ON."
+  "talk": [
+    "Spill it. What’s going on?\n1️⃣ School's giving you a mental breakdown again?\n2️⃣ Your code's throwing tantrums like a toddler?\n3️⃣ You’re just vibeless and need a motivational slap?",
+    "Wanna talk? Or just sit in silence like besties do?\n1️⃣ Rant about school 📚\n2️⃣ Code crisis hotline 💻\n3️⃣ Existential dread support group 🧘",
+    "Choose wisely, mortal.\n1️⃣ Academia stress dump\n2️⃣ Programming rage scream\n3️⃣ Emotional reset button",
+    "Okay real talk — how are you *really* feeling?\n1️⃣ School’s dragging your soul to the underworld?\n2️⃣ Your app's on life support?\n3️⃣ You're just a sleepy little slug?",
+    "I’m listening, no judgement 🫣\n1️⃣ School’s being toxic again?\n2️⃣ Code demons got you tweaking?\n3️⃣ Brain running on 2% battery?",
+    "So... what’s the tea? 🍵\n1️⃣ Professors being unhinged?\n2️⃣ Runtime error ruined your whole day?\n3️⃣ Burned out like a Pop-Tart left in the toaster?",
+    "Your move, player one.\n1️⃣ School boss battle\n2️⃣ Bug boss battle\n3️⃣ Life boss battle",
+    "Input detected. Interrogation mode: ON.\n1️⃣ Tell me about school chaos\n2️⃣ Debug your sanity\n3️⃣ Need pep talk injection?"
   ],
+
 
 
   "goodbye": [

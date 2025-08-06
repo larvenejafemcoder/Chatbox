@@ -1,28 +1,30 @@
-from chatbox import Chat, gpt_name, general_quest, user_name
+from chatbox import Chat, gpt_name, general_quest, user_name, con_talk
+from source.slow_print import slow_input
+
 
 def main():
     bot = Chat()
-    bot.chat(f"Hello! I'm {gpt_name}, your friendly Python chatbot 💬")
-    bot.chat("I was written in Python to make you feel at home 🐍💖")
+    bot.chat(f"Hello! I'm {gpt_name}, your friendly Python chatbot 💬") #1
+    bot.chat("I was written in Python to make you feel at home 🐍💖") #2
 
-    # Greet user and ask how they're doing
-    general_quest()
 
     # Ask for their name
-    user_name()
+    user_name() #2
+    # Greet user and ask how they're doing
+    general_quest() #3
 
     # Main loop
     while True:
-        choice = input(
+        choice = slow_input(
             "\nWhat would you like to do next?\n"
-            " 1. Talk 💭\n"
-            " 2. Ask ❓\n"
-            " 3. Quit 👋\n"
+            " 1. Continue talking 💭\n"
+            " 2. Ask me a question ❓\n"
+            " 3. Quit now! 👋\n"
             "Your Choice: "
         ).strip()
 
-        if choice == "1":
-            general_quest()
+        if choice == "1": #Continue talking
+            con_talk()
         elif choice == "2":
             print("Sure! What do you wanna talk about? 🗨️")
         elif choice == "3":
