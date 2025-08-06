@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a40b520b-654c-4957-9d59-16c0576c7290" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/chatbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/chatbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/responds.json" beforeDir="false" afterPath="$PROJECT_DIR$/source/responses.json" afterDir="false" />
-    </list>
+    <list default="true" id="a40b520b-654c-4957-9d59-16c0576c7290" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
