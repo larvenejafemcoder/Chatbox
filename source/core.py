@@ -1,5 +1,5 @@
 from chatbox import PookieGPT
-import time
+
 
 def main():
     bot = PookieGPT()
@@ -15,4 +15,4 @@ if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        print("\nPookieGPT: Wait— you ragequit on me?! Rude. 💔")
+        PookieGPT().interupt_quit()

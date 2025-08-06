@@ -2,8 +2,12 @@ from random import choice
 from slow_print import slow_input, slow_print
 import json
 
+gpt_name = "PookieGPT"
+
+
+
 class PookieGPT:
-    def __init__(self, name="PookieGPT", delay=(0.01, 0.06)):
+    def __init__(self, name=gpt_name, delay=(0.01, 0.06)):
         self.name = name
         self.delay = delay
         with open("responses.json", "r", encoding="utf-8") as f:
@@ -37,6 +41,10 @@ class PookieGPT:
             response = "I couldn't tell how you're feeling, but I'm here anyway."
 
         slow_print(f"{self.name}: {response}", self.delay)
+
+    #-------------------------------------------------------
+    def interupt_quit(self):
+        slow_print(f"{self.name}: {choice(self.responds['ragequit'])}", self.delay)
 
     # ------------------ Continue Talking ------------------
     def con_talk(self):

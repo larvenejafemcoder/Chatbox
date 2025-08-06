@@ -123,7 +123,18 @@
     "Input detected. Interrogation mode: ON.\n1️⃣ Tell me about school chaos\n2️⃣ Debug your sanity\n3️⃣ Need pep talk injection?"
   ],
 
-
+  "ragequit": [
+    "\nUgh, you just vanished? Rude. 💅",
+    "\nDon't ragequit on me like I'm some NPC. 💔",
+    "\nExcuse me?? You *left*? I was literally about to slay. 😤",
+    "\nWow. Not even a goodbye? Cold. ❄️",
+    "\nYou ragequit? Ew. Emotional damage. 🥲",
+    "\nYou closed the chat like I wasn’t mid-sentence?? 💔📉",
+    "\nI was being iconic and you dipped?? Smh. 🚪😩",
+    "\nGuess I’m talking to myself now. Again. 👻",
+    "\nLeaving me on read *during* our arc? Tragic. 🎭",
+    "\nWait— you ragequit on me?! Bold of you to assume I’ll forget. 😤"
+  ],
 
   "goodbye": [
     "Okay bye, go touch grass 🌱",
