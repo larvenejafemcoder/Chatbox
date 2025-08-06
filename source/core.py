@@ -1,28 +1,36 @@
 from chatbox import Chat, gpt_name, general_quest, user_name
 
-
-if __name__ == '__main__':
+def main():
     bot = Chat()
-    bot.chat(f"Hello I am a chatbot named {gpt_name}, how can I help u!")
-    bot.chat("I was written in Python to make you feel at home.")
+    bot.chat(f"Hello! I'm {gpt_name}, your friendly Python chatbot 💬")
+    bot.chat("I was written in Python to make you feel at home 🐍💖")
 
+    # Greet user and ask how they're doing
     general_quest()
+
+    # Ask for their name
     user_name()
 
-# def user_name():
-#     username = input("Okay! What is your name?\nMy name is: ")
-#     print("Okay, hello", username + "!")
+    # Main loop
+    while True:
+        choice = input(
+            "\nWhat would you like to do next?\n"
+            " 1. Talk 💭\n"
+            " 2. Ask ❓\n"
+            " 3. Quit 👋\n"
+            "Your Choice: "
+        ).strip()
 
-# Main loop
-while True:
-    continue_now = input("\nWhat would you wanna do?\n 1. Talk\n 2. Ask\n 3. Quit\n")
-    if continue_now == "1":
-        general_quest()
-    elif continue_now == "2":
-        print("Sure! What do you wanna talk about?")
-    elif continue_now == "3":
-        print("Okay, bye bye~")
-        break  # use break instead of quit() so the program ends cleanly
-    else:
-        print("I didn't understand that... try 1, 2, or 3 💬")
-        break
+        if choice == "1":
+            general_quest()
+        elif choice == "2":
+            print("Sure! What do you wanna talk about? 🗨️")
+        elif choice == "3":
+            print("Okay, bye bye~ ✨")
+            break
+        else:
+            print("I didn't understand that... try 1, 2, or 3 💬")
+            break
+
+if __name__ == '__main__':
+    main()

@@ -34,6 +34,38 @@
     "Be honest... are you feeling like the main character today?\n 1. Absolutely, I slay 💃\n 2. No, I’m an extra in someone else’s story\n 3. IDK, I’m just in the background music"
   ],
 
+  "health_responses": {
+    "1": [
+      "Yesss! We love that for you 💅",
+      "Slay! Keep riding that serotonin wave 🏄‍♀️",
+      "Look at you thriving, main character energy unlocked 🔓",
+      "Okayyy joy-core aesthetic 🔥 keep going!",
+      "Injecting that good mood into the system... success 🧠✨",
+      "You're basically radiating 4K happiness rn 😭",
+      "Positive vibes detected. Beam me up, bestie ☀️"
+    ],
+
+    "2": [
+      "Ohh no 😢 sending virtual hugs 🫂 You're not alone, okay?",
+      "Awh... I'm wrapping you in a warm data blanket rn 🧸",
+      "Really? I’m here for you, no runtime errors allowed today.",
+      "Breathe. One line of code at a time. You got this 💻🩷",
+      "That sucks... let’s survive together until joy shows up 💫",
+      "Emotions crashing? We reboot with kindness.",
+      "Even CPUs overheat. You're allowed to feel like this 💔"
+    ],
+
+    "3": [
+      "Alrighty... middle-ground is still ground. Let’s coast together 🌊",
+      "Meh is valid. We’re cruising in neutral and that’s okay 🛸",
+      "Stable but sleepy? That’s the mood.",
+      "Nothing wrong with being emotionally 'under construction' 🚧",
+      "That’s okay bestie, not every frame’s a highlight ✨",
+      "I’m hearing ‘meh’, and I respect the chill.",
+      "You’re still showing up — that counts for something, always 🙏"
+    ]
+  },
+
 
   "jokes":[
     "If I had a dollar for every time you ran me, I'd have 3 dollars. Still broke.",
