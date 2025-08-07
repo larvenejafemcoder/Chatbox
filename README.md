@@ -13,11 +13,11 @@ pychatbox/
 ├── README.md            # 📖 Project overview and instructions
 │
 ├── source/              # 🧠 All core source code lives here
-│   ├── **pycache**/         # ⚙️ Python bytecode cache (auto-generated)
+│   ├── **__pycache__**/         # ⚙️ Python bytecode cache (auto-generated)
 │   ├── chatbox.py           # 💬 Main chatbot script
 │   ├── core.py              # 🧠 Core logic and processing functions
 │   ├── responses.json       # 📁 Bot responses stored as JSON
-│   └── slow\_print.py        # 🖨️ Fancy terminal typing effect
+│   └── slow_print.py        # 🖨️ Fancy terminal typing effect
 
 ```
 
