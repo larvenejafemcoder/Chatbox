@@ -1,11 +1,9 @@
 # Py_Chatbox
-A Simple ChatBox made in Python
+## A Simple ChatBox made in Python
 
-
-Got it, Pookie 🧠💻 — here's the corrected markdown version based on your updated structure:
-
+### 📦 PyChatbox Project Structure
 ```markdown
-# 📦 PyChatbox Project Structure
+
 
 
 pychatbox/
@@ -23,4 +21,3 @@ pychatbox/
 
 ```
 
-Let me know if you want this turned into a live README with sections like usage, install, etc. I can generate that instantly for you.
