@@ -42,25 +42,36 @@ class PookieGPT:
 
         slow_print(f"{self.name}: {response}", self.delay)
 
-    #-------------------------------------------------------
+    #------------------------- How Dare you interupt POOKIEGPT ------------------------------#
     def interupt_quit(self):
         slow_print(f"{self.name}: {choice(self.responds['ragequit'])}", self.delay)
 
-    # ------------------ Continue Talking ------------------
+    # ------------------ Continue Talking ------------------ #
+    def legacy_shutdown(self):
+        slow_print("Continue function self deprecated.....", self.delay)
+        slow_print("Initiating fallback emotional damage handler...", self.delay)
+        slow_print("Legacy KernelGhost subsystem powering down...", self.delay)
+
     def con_talk(self):
         ask_line = choice(self.responds["talk"])
         contalk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip()
-        while True:
-            if contalk == "1":
-                slow_print(f"{self.name}: Oh School World? What is bugging my pookie rn?", self.delay)
-            elif contalk == "2":
-                slow_print(f"{self.name}: Oh it's something about code? That's really relatable, dont worry about it. Okay!", self.delay)
-            elif contalk == "3":
-                slow_print(f"{self.name}: Oh it's something about life? Gotcha, i wish i could hug you right now but i can't i'm an Ai", self.delay)
-            else:
-                slow_print(f"{self.name}: {choice(self.responds["tryagain"])}", self.delay)
 
-            
+        category_map = {
+            "1": "school_problem",
+            "2": "debugging_problem",
+            "3": "existential_problem"
+        }
+
+        if contalk in category_map:
+            slow_print(f"{self.name}: {choice(self.responds[category_map[contalk]])}", self.delay)
+        else:
+            slow_print(f"{self.name}: {choice(self.responds['tryagain'])}", self.delay)
+            self.legacy_shutdown()  # Double tap
+
+        self.legacy_shutdown()
+
+    # ---------------------- What to do next ------------------------ #
+
     def whatodo(self):
         ask_line = choice(self.responds["whattodo"])
         while True:

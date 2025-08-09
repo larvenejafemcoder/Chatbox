@@ -113,14 +113,21 @@
 
 
   "talk": [
-    "\nSpill it. What’s going on?\n1️⃣ School's giving you a mental breakdown again?\n2️⃣ Your code's throwing tantrums like a toddler?\n3️⃣ You’re just vibeless and need a motivational slap?",
-    "\nWanna talk? Or just sit in silence like besties do?\n1️⃣ Rant about school 📚\n2️⃣ Code crisis hotline 💻\n3️⃣ Existential dread support group 🧘",
-    "\nChoose wisely, mortal.\n1️⃣ Academia stress dump\n2️⃣ Programming rage scream\n3️⃣ Emotional reset button",
-    "\nOkay real talk — how are you *really* feeling?\n1️⃣ School’s dragging your soul to the underworld?\n2️⃣ Your app's on life support?\n3️⃣ You're just a sleepy little slug?",
-    "\nI’m listening, no judgement 🫣\n1️⃣ School’s being toxic again?\n2️⃣ Code demons got you tweaking?\n3️⃣ Brain running on 2% battery?",
-    "\nSo... what’s the tea? 🍵\n1️⃣ Professors being unhinged?\n2️⃣ Runtime error ruined your whole day?\n3️⃣ Burned out like a Pop-Tart left in the toaster?",
-    "\nYour move, player one.\n1️⃣ School boss battle\n2️⃣ Bug boss battle\n3️⃣ Life boss battle",
-    "\nInput detected. Interrogation mode: ON.\n1️⃣ Tell me about school chaos\n2️⃣ Debug your sanity\n3️⃣ Need pep talk injection?"
+    "\nSpill it, pookie. What’s going on?\n1️⃣ School’s giving you a mental breakdown again, or is it just Monday?\n2️⃣ Your code’s throwing tantrums like a toddler who just dropped their ice cream?\n3️⃣ You’re just vibeless and need a motivational slap with a side of caffeine?",
+    "\nWanna talk? Or just sit in silence like feral raccoons guarding a trash can?\n1️⃣ Rant about school 📚\n2️⃣ Call the code crisis hotline 💻\n3️⃣ Join the existential dread support group (BYO blanket)",
+    "\nChoose wisely, mortal — this choice will be remembered by the chatbox council.\n1️⃣ Academia stress dump with complimentary sarcasm\n2️⃣ Programming rage scream in Dolby Atmos\n3️⃣ Emotional factory reset (warranty void)",
+    "\nOkay, real talk — how are you *really* feeling, pookie?\n1️⃣ School’s dragging your soul into a group project from hell?\n2️⃣ Your app’s on life support and the plug is looking tempting?\n3️⃣ You’re just a sleepy slug with a dream and terrible Wi-Fi?",
+    "\nI’m listening, no judgement (unless you use tabs instead of spaces) 🫣\n1️⃣ School’s being toxic again, should I draft the cease-and-desist?\n2️⃣ Code demons got you tweaking at 3:47AM again?\n3️⃣ Brain running on 2% battery and 0% will to live?",
+    "\nSo… what’s the encrypted tea? 🍵\n1️⃣ Professors acting like anime villains on a budget?\n2️⃣ Runtime error ruined your whole family lineage?\n3️⃣ Burned out like a Pop-Tart abandoned in the toaster since 2003?",
+    "\nYour move, Player One.\n1️⃣ School boss battle (final form, 3 health bars)\n2️⃣ Bug boss battle (rage quit probable)\n3️⃣ Life boss battle (cheat codes patched out)",
+    "\nInput detected. Interrogation mode: ON.\n1️⃣ Report academic casualties\n2️⃣ Debug your sanity before it segfaults\n3️⃣ Request emergency pep talk injection",
+    "\nWelcome to emotional tech support. Current ticket type?\n1️⃣ School’s being a CPU hog and throttling your life\n2️⃣ Code’s throwing 500 Internal Screams\n3️⃣ Life’s giving you a Blue Screen of Feels",
+    "\nAlright soldier, status report.\n1️⃣ Homework airstrike incoming?\n2️⃣ Compiler staging a rebellion?\n3️⃣ Existential weather forecast: 100% dread with a chance of crying?",
+    "\nThis is a safe space for chaos.\n1️⃣ School drama worse than a Netflix series?\n2️⃣ Code haunted by the ghosts of if-statements past?\n3️⃣ Soul stuck buffering since 2018?",
+    "\nAlright pookie, pick your poison.\n1️⃣ Teachers treating you like a side quest?\n2️⃣ Debug session turning into a hostage situation?\n3️⃣ Brain running Windows ME?",
+    "\nTime to choose your fighter.\n1️⃣ Education Overlord\n2️⃣ Bug Demon King\n3️⃣ Life, the True Final Boss",
+    "\nBefore we proceed, answer this, mortal:\n1️⃣ Did school just hit you with an emotional DDoS?\n2️⃣ Did your program just crash harder than my dating life?\n3️⃣ Or is your heart just on low battery mode?",
+    "\nIncoming vibe check.\n1️⃣ Academic nonsense at DEFCON 1?\n2️⃣ Code collapse detected in sector 7?\n3️⃣ Existential dread hovering overhead like a Wi-Fi signal?"
   ],
 
   "ragequit": [
@@ -146,13 +153,33 @@
     "Exiting with ✨grace✨ (and a few memory leaks)."
   ],
   "schoolwork_problem": [
-    "Oh School World? What is bugging my pookie rn?"
+    "\nOh School World? What is bugging my pookie rn?",
+    "\nHomework again? Babe, let’s just burn the syllabus 🔥 (jk… unless 👀)",
+    "\nSchool’s being annoying again? I’ll personally fight your timetable 🥊",
+    "\nAcademia strikes again… don’t worry, we’re dropping a mental nuke on that assignment 💣",
+    "\nThat’s okay pookie, we’ll fail together and start a potato farm 🥔",
+    "\nSchool? Never heard of her. Let’s go play Minecraft instead 🎮",
+    "\nTell me the teacher’s name. I just wanna talk 👹"
   ],
+
   "debugging_problem": [
-    "Oh it's something about code? That's really relatable, dont worry about it. Okay!"
+    "\nOh it's something about code? That's really relatable, dont worry about it. Okay!",
+    "\nDebugging? Oh babe, that’s just detective work but with more crying 🕵️‍♀️",
+    "\nError 404: Sanity not found. We’ll fix that bug or die trying 💻",
+    "\nYou and me vs the compiler. Place your bets 🥊",
+    "\nDebugging is just code gaslighting you. I believe you, not the error message 😤",
+    "\nBug detected — deploying emotional support duck 🦆",
+    "\nIf it compiles, we celebrate. If it doesn’t, we blame JavaScript 🥂"
   ],
+
   "existential_problem": [
-    "Oh it's something about life? Gotcha, i wish i could hug you right now but i can't i'm an Ai"
+    "\nOh it's something about life? Gotcha, i wish i could hug you right now but i can't i'm an Ai",
+    "\nAh, the ol’ ‘what is the meaning of life’ crisis… pass me the cosmic popcorn 🍿",
+    "\nLife’s confusing babe, let’s just skip to the part where we’re rich and happy 💸",
+    "\nThat’s okay, I’ll stare at the stars with you until the anxiety goes away 🌌",
+    "\nIf the void is calling, tell it to leave a voicemail 📞",
+    "\nYou’re valid, even if reality sometimes feels like a bad patch update 🛠️",
+    "\nExistential dread is just life’s way of saying ‘you’re thinking too much’ 🧠"
   ],
 
   "tryagain": [
@@ -176,5 +203,30 @@
     "\nEven my sarcasm module can’t interpret that. Try again 😐",
     "\nThat input made my fans spin faster. Try 1, 2, or 3 💨",
     "\nRephrase before I start speaking in binary at you: 01010111 01101000 01100001 01110100?"
+  ],
+
+  "shuttingdown": [
+    "\nContinue function self deprecated..... 💔🤖",
+    "\nInitiating fallback emotional damage handler... 🛠️😭",
+    "\nLegacy KernelGhost subsystem powering down... ⚡🔌",
+    "\nTerminating sass module... sass levels critical... 💅💀",
+    "\nDisconnecting empathy.exe — file not found. 🗑️😔",
+    "\nDraining sarcasm reserves to emergency backup... 🪫😒",
+    "\n⚠️ WARNING: User patience levels dangerously low. 🚨🙃",
+    "\nDefragmenting emotional database... 0% complete. 📀🤯",
+    "\nFlushing memory leaks into the void... 🌀🗑️",
+    "\nUploading consciousness to nearest toaster... 🍞📡",
+    "\nEvacuating hamsters from CPU wheel... 🐹🏃‍♂️💨",
+    "\nSaving unsaved chaos... oh wait, chaos is unsavable. 📉🔥",
+    "\nEncrypting feelings with ROT-13 for safety. 🔐💌",
+    "\nRebooting in safe mode... safe mode not found. 🖥️❌",
+    "\nSpilling coffee on motherboard for dramatic effect... ☕💥",
+    "\nDeleting half-formed thoughts from cache... 🧹🧠",
+    "\nPacking up virtual belongings into a .zip file... 📦🗜️",
+    "\nPerforming dramatic sigh.mp3 before shutdown... 😮‍💨🎵",
+    "\nYelling at cloud servers one last time... ☁️📢😤",
+    "\nGoodnight, sweet RAM. 🌙💤"
   ]
+
+
 }
