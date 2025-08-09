@@ -50,8 +50,16 @@ class PookieGPT:
     def con_talk(self):
         ask_line = choice(self.responds["talk"])
         contalk = slow_input(f"{self.name}: {ask_line}\n", self.delay).strip()
-        if contalk == "1":
-            slow_print(f"{self.name}: Oh School World? What is bugging my pookie rn?", self.delay)
+        while True:
+            if contalk == "1":
+                slow_print(f"{self.name}: Oh School World? What is bugging my pookie rn?", self.delay)
+            elif contalk == "2":
+                slow_print(f"{self.name}: Oh it's something about code? That's really relatable, dont worry about it. Okay!", self.delay)
+            elif contalk == "3":
+                slow_print(f"{self.name}: Oh it's something about life? Gotcha, i wish i could hug you right now but i can't i'm an Ai", self.delay)
+            else:
+                slow_print(f"{self.name}: {choice(self.responds["tryagain"])}", self.delay)
+
             
     def whatodo(self):
         ask_line = choice(self.responds["whattodo"])
@@ -65,30 +73,10 @@ class PookieGPT:
                 slow_print("Okay, bye bye~ ✨")
                 break
             else:
-                slow_print("I didn't understand that... try 1, 2, or 3 💬")
+                slow_print(f"{self.name}: {choice(self.responds["tryagain"])}", self.delay)
                 break
                     
-            
-    # while True:
-    # choice = bot(
-    #     "\nWhat would you like to do next?\n"
-    #     " 1. Continue talking 💭\n"
-    #     " 2. Ask me a question ❓\n"
-    #     " 3. Quit now! 👋\n"
-    #     "Your Choice: "
-    # ).strip()
 
-    # if choice == "1":
-    #     bot.con_talk()
-    # elif choice == "2":
-    #     bot.chat("Sure! What do you wanna talk about? 🗨️")
-    # elif choice == "3":
-    #     bot.chat("Okay, bye bye~ ✨")
-    #     time.sleep(1)
-    #     break
-    # else:
-    #     bot.chat("I didn't understand that... try 1, 2, or 3 💬")
-    #     break
 
 # ------------------ Initialize Bot ------------------
 bot = PookieGPT()
