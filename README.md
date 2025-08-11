@@ -25,6 +25,3 @@ pychatbox/
 ##### Make some ascii art in python_ChatBox
 ##### Refactor Similar Functions
 ##### Make PookieGPT ask more question
-
-
-git remote set-url origin https://<token>@github.com/larvenejafemcoder/Py_Chatbox.git
