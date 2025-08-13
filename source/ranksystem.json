@@ -1,13 +1,45 @@
 {
   "RANKS": [
-    { "name": "Recruit", "score": 0 },
-    { "name": "Private", "score": 100 },
-    { "name": "Corporal", "score": 300 },
-    { "name": "Sergeant", "score": 600 },
-    { "name": "Lieutenant", "score": 1000 },
-    { "name": "Captain", "score": 1500 },
-    { "name": "Major", "score": 2100 },
-    { "name": "Colonel", "score": 2800 },
-    { "name": "General", "score": 3600 }
-  ]
+    {
+      "name": "Recruit",
+      "score": 0
+    },
+    {
+      "name": "Private",
+      "score": 100
+    },
+    {
+      "name": "Corporal",
+      "score": 300
+    },
+    {
+      "name": "Sergeant",
+      "score": 600
+    },
+    {
+      "name": "Lieutenant",
+      "score": 1000
+    },
+    {
+      "name": "Captain",
+      "score": 1500
+    },
+    {
+      "name": "Major",
+      "score": 2100
+    },
+    {
+      "name": "Colonel",
+      "score": 2800
+    },
+    {
+      "name": "General",
+      "score": 3600
+    }
+  ],
+  "Finley": {
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "score": 0,
+    "rank": "Recruit"
+  }
 }

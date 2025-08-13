@@ -1,25 +1,28 @@
-import time
-import random
+import time                      # Used for adding delays (pausing between characters)
+import random                    # Used for picking a random delay each time
 
+# ------------------ Slow Print Function ------------------ #
 def slow_print(text, delay_range=(0.01, 0.06)):
+    """
+    Prints text character-by-character with a random delay between each.
+    delay_range: tuple(min_delay, max_delay) in seconds.
+    """
+
+    # Loop through every character in the given text
     for char in text:
-        print(char, end='', flush=True)
-        time.sleep(random.uniform(*delay_range))
-    print()
+        print(char, end='', flush=True)           # Print each char without newline, flush so it appears instantly
+        time.sleep(random.uniform(*delay_range))  # Wait for a random time between min and max delay
+    print()                                       # After finishing, print a newline
 
+# ------------------ Slow Input Function ------------------ #
 def slow_input(prompt, delay_range=(0.01, 0.06)):
-    for char in prompt:
-        print(char, end='', flush=True)
-        time.sleep(random.uniform(*delay_range))
-    return input()
+    """
+    Displays a prompt slowly (like typing), then waits for user input.
+    delay_range: tuple(min_delay, max_delay) in seconds.
+    """
 
-'''okay so define a function already with slow input
-func(parsing parameter =>> prompt for message, and delay_time(parsing 0.01(the speed), and 0.08(the time when text should be completed) ) ) 
-    then we made a for loop
-    
-    # Loop through every character in the string
-    for character in text(or:prompt):
-        print(each char, end with "", then make the flush effect) #   print without newline, flush so it shows immediately
-        we imported the library so we gon use it    # wait randomly between min and max delay
-        time.sleep(random.uniform(delaytime))     # print newline after full message
-'''
+    # Loop through every character in the prompt string
+    for char in prompt:
+        print(char, end='', flush=True)           # Print one char at a time, without newline
+        time.sleep(random.uniform(*delay_range))  # Random pause for "human typing" effect
+    return input()                                # After prompt is done, wait for user to type their answer
