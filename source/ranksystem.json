@@ -1,0 +1,13 @@
+{
+  "RANKS": [
+    { "name": "Recruit", "score": 0 },
+    { "name": "Private", "score": 100 },
+    { "name": "Corporal", "score": 300 },
+    { "name": "Sergeant", "score": 600 },
+    { "name": "Lieutenant", "score": 1000 },
+    { "name": "Captain", "score": 1500 },
+    { "name": "Major", "score": 2100 },
+    { "name": "Colonel", "score": 2800 },
+    { "name": "General", "score": 3600 }
+  ]
+}
