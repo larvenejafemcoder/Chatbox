@@ -21,7 +21,7 @@ class PookieGPT:
             self.responds = {}
 
     # ------------------ Introduction ------------------
-    def intro(self):
+    def introduction(self):
         slow_print(f"{self.name}: {choice(self.responds['introduction'])}", self.delay)
 
     # ------------------ Username Prompt ------------------
