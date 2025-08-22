@@ -1,11 +1,11 @@
 # Py_Chatbox
 ## A Simple ChatBox made in Python
 
-### 📦 PyChatbox Project Structure
-```markdown
+### 📦 PyChatbox Project Structure -- Project made by Similar
+## By LibreGhost(Sergant Michael Cross) and KernelGhost(Commandette LarveneJafem)
 
-
-
+```
+markdown
 pychatbox/
 ├── .idea/               # 🔧 IDE configs (PyCharm settings)
 │
@@ -26,7 +26,7 @@ todo right now :
   1.Make a documentation (lore essentially) to make PookieGPT more understandable in the future
   2.Make the code more readable for future reference!
   3.Port everything into core!
-  4. .....tobe continued!
+  4.Set env to be Python 3.12.5 only for future reference
 
 
 ##### Make some ascii art in python_ChatBox
