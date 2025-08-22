@@ -101,9 +101,6 @@ class PookieGPT:
                 slow_print("Okay, bye bye~ ✨")  # Graceful exit
                 break
             else:
-                # ⚠ BUG: This line will crash due to double quotes around 'tryagain' key
-                # Fix: use single quotes inside f-string or escape the inner quotes
-                slow_print(f"{self.name}: {choice(self.responds['tryagain'])}", self.delay)
                 break
 
 
