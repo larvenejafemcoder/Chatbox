@@ -26,7 +26,8 @@ todo right now :
   1.Make a documentation (lore essentially) to make PookieGPT more understandable in the future
   2.Make the code more readable for future reference!
   3.Port everything into core!
-  4.Set env to be Python 3.12.5 only for future reference
+  4.Set env to be Python 3.12.3 only for future references 
+  5.Always push to the beta branch only
 
 
 ##### Make some ascii art in python_ChatBox
