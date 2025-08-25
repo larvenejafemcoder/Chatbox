@@ -97,26 +97,33 @@ class PookieGPT:
         user_q = slow_input(f"{self.name}: {choice(self.responds['askPookie'])}", self.delay).strip()
 
         # Simple mapping for demonstration
+        '''
         question_map = {
             "1": "whatimfor",
-            "2": "schoolwork_problem",
-            "3": "debugging_problem",
-            "4": "debugging_problem",
-            "5": "existential_problem",
-            "6": "existential_problem"
-        }
+            "2": "howispookie",
+            "3": "tellajoke",
+            "4": "howispookie",
+            "5": "whatimfor",
+            "6": "howispookie"
+            }
+        '''
+        #Iterate throught the question map and print the response
+        match (user_q):
+            case "1":
+                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
+            case "2":
+                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}")
+            case "3":
+                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
+            case "4":
+                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
+            case "5":
+                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}")
+            case "6":
+                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}")
+            case _:
+                slow_print(f"{self.name}: {choice(self.responds['tryagain'])}")
 
-        matched_category = None
-        for keyword, category in question_map.items():
-            if keyword in user_q:
-                matched_category = category
-                break
-
-        if matched_category == question_map["1"]:
-            slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
-        else:
-            slow_print(f"{self.name}: {choice(self.responds['tryagain'])}")
-        
 
 
         # ------------------ What to do next ------------------ #
