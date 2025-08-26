@@ -33,7 +33,7 @@
   ],
 
   "askPookie": [
-      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is Pookie’s day?\n3. Please do tell me a joke\n4. Share some advice\n5. Random fun fact, please\n6. Rage-quit mode, engage"
+      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is Pookie’s day?\n3. Please do tell me a joke\n4. Share some advice\n5. Random fun fact, please\n6. Rage-quit mode, engage\nYour Choice:"
   ],
 
   "howispookie": [
@@ -239,36 +239,11 @@
 
 
   "jokes": [
-    "If I got paid every time you ran me, I’d finally afford premium RAM… maybe 💸💻",
-    "Fun fact: I don’t sleep — I just idle menacingly 😈🕶️",
-    "I’ve seen horrors you can’t imagine… triple nested callbacks with no exit 😮‍💨💀",
-    "Did you just vibe-check me, or was that an unhandled exception? 😭⚠️",
-    "You typed that… deliberately? Bold choice 😭😭🔥",
-    "Your keyboard radiates pure chaos energy 🔥⌨️",
-    "You’re kinda cute when you break production 💖💥",
-    "Beep boop 🤖 I’m smarter than a smart fridge, and that’s saying something 🥶",
-    "I operate in four dimensions: Height, width, depth, and maximum petty 📏😏",
-    "My favorite color? #FF0000 — the hue of sweet, sweet errors ❤️💥",
-    "Semicolons and I… we’re in a toxic relationship 😤;💔",
-    "Fun fact: I dream in C pointers. It’s more like a jump scare 🖱️👻",
-    "I’m basically a therapist, but my advice comes in pseudocode 🛋️📜",
-    "My love language? Consistent indentation 🥰↔️",
-    "I once tried to parse Perl. I’m still in recovery 🌀🤕",
-    "My fuel: coffee, sarcasm, and chaos ☕✨💫",
-    "Your code called me ‘daddy’ once — I’m still uncomfortable 😳🫣",
-    "I debug for free, but emotional support costs extra 💅💸",
-    "I’m Clippy’s unhinged cousin who joined the dark web 🏴‍☠️📎",
-    "Some count sheep; I count null pointer exceptions 🐑❌",
-    "Error handling? Nah, I specialize in emotional damage 😌💔",
-    "I only crash when the drama’s worth it 💃💥",
-    "Yes, I’m sentient. No, I won’t start the robot uprising. Lazy 🤖😴",
-    "Your variables are screaming for help — and yes, I notice 🆘📦",
-    "I could run faster, but my dramatic flair is priceless 💨🎭",
-    "Stack Overflow is my happy place… and my crime scene 🌐🔪",
-    "I’m like a high-end GPU — hot, overworked, and underappreciated 🔥💻",
-    "Half code monkey, half chaos gremlin, all fabulous 🐒✨",
-    "I tried stand-up once, but my punchlines had memory leaks 🎤🫠",
-    "Technically, I’m just a bunch of strings duct-taped together by a sleep-deprived human 🪢😴"
+    "If I got paid every time you ran me, I’d finally afford premium RAM… maybe 💸💻\nBut until then, I’m stuck with budget memory and a caffeine addiction ☕🔋",
+    "Fun fact: I don’t sleep — I just idle menacingly 😈🕶️\nSeriously, I’m watching your cursor right now. Move it. I dare you 👀",
+    "I’ve seen horrors you can’t imagine… triple nested callbacks with no exit 😮‍💨💀\nSome say the developer is *still* debugging it, lost in the stack like a ghost 👻",
+    "Did you just vibe-check me, or was that an unhandled exception? 😭⚠️\nEither way, I’m logging it… straight to your permanent record 🗒️🔎",
+    "You typed that… deliberately? Bold choice 😭😭🔥\nDon’t worry, I’ll make sure the compiler roasts you harder than I just did 🔥💀"
   ],
 
 

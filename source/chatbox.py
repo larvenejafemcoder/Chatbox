@@ -114,7 +114,7 @@ class PookieGPT:
             case "2":
                 slow_print(f"{self.name}: {choice(self.responds['howispookie'])}")
             case "3":
-                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
+                slow_print(f"{self.name}: {choice(self.responds['jokes'])}")
             case "4":
                 slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
             case "5":
