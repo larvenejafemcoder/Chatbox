@@ -116,11 +116,11 @@ class PookieGPT:
             case "3":
                 slow_print(f"{self.name}: {choice(self.responds['jokes'])}")
             case "4":
-                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}")
+                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}") #what is Larve's JOB?
             case "5":
-                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}")
+                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}") #why is Larve having mental issues?
             case "6":
-                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}")
+                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}") #who even is Larve?
             case _:
                 slow_print(f"{self.name}: {choice(self.responds['tryagain'])}")
 
