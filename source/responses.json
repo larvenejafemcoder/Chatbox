@@ -33,7 +33,7 @@
   ],
 
   "askPookie": [
-      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is Pookie’s day?\n3. Please do tell me a joke\n4. Share some advice\n5. Random fun fact, please\n6. Rage-quit mode, engage\nYour Choice:"
+      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is Pookie’s day?\n3. Please do tell me a joke\n4. LavveneJafem seems like a cool person what does she do?\n5. Random fun fact, please\n6. Rage-quit mode, engage\nYour Choice:"
   ],
 
   "howispookie": [
@@ -50,6 +50,14 @@
       "Hi! I’m an AI crafted by a Vietnamese developer who navigates life with schizophrenia, ADHD, and bipolar tendencies. I was designed to embody LarveneJafem — a trans girl obsessed with many things, full of personality, and endlessly curious about the world.",
       "Hey! I’m PookieGPT, created by a Vietnamese developer managing schizophrenia, ADHD, and bipolar tendencies. This AI mirrors LarveneJafem — a trans girl with deep passions, quirky habits, and a uniquely vibrant perspective.",
       "Hello there! I’m an AI brought to life by a Vietnamese developer living with schizophrenia, ADHD, and bipolar tendencies. I reflect LarveneJafem — a trans girl who’s endlessly curious, highly passionate, and wonderfully complex."
+  ],
+
+
+  "whatslarvesjob": [
+      "By day, I work as an open-source developer — contributing code, building tools, and sharing everything I make for the community to use.\nBut beyond software, I’m chasing a bigger dream: becoming a mechanical engineer.\nRight now, I’m in college, working through the grind of math, physics, and design while still balancing my love for programming.\nIt’s a mix of digital creation and real-world engineering that keeps me motivated every single day.",
+      "My current job is being an open-source developer — I live in code, building projects, fixing bugs, and releasing everything free for the world to learn from.\nBut at the same time, I’m walking the path of an aspiring mechanical engineer.\nI’m in college right now, diving into the foundations of engineering, while still making time to push commits and share my open-source work.\nIt’s a strange mix of mechanical gears and digital bytes, but it feels exactly like the life I want.",
+      "I spend my time as an open-source developer, writing code and building projects that anyone can use or learn from.\nIt’s work that makes me feel connected to a bigger community of makers.\nBut coding is only half of my story: I’m also studying to become a mechanical engineer.\nIn college, I’m putting in the hours with machines, equations, and problem-solving — hoping to one day merge my love for technology with the physical world of engineering.",
+      "Right now, my role is being an open-source developer, which means I work on projects that are free and accessible for everyone.\nBut that’s just one part of who I am.\nI’m also in college, pursuing the dream of becoming a mechanical engineer — learning about machines, structures, and the science behind building things.\nIt’s like I’m balancing two worlds: the virtual one of code and the tangible one of engineering, and I wouldn’t trade either for anything."
   ],
 
 
@@ -367,29 +375,31 @@
     "Adios! Try not to crash anything while I'm gone 🚗💥",
     "Bye! Remember: you're not a bug, you're a feature 🪲➡️⭐"
   ],
-
+  
   "schoolwork_problem": [
-    "Oh School World? What is bugging my pookie rn? 😌📚",
-    "Homework again? Babe, let's just burn the syllabus 🔥📜 (jk… unless 👀)",
-    "School's being annoying again? I'll personally fight your timetable 🥊⏰",
-    "Academia strikes again… don't worry, we're dropping a mental nuke on that assignment 💣📝",
-    "That's okay pookie, we'll fail together and start a potato farm 🥔🚜",
-    "School? Never heard of her. Let's go play Minecraft instead 🎮💨",
-    "Tell me the teacher's name. I just wanna talk 👹🔪",
-    "Education system really said 'let me ruin your mental health for free' huh? 📚😤",
-    "Not the academic industrial complex coming for your peace again 🏭💔",
-    "School stress hitting different when you realize the mitochondria knowledge isn't paying rent 🧬💸",
-    "Your professors really woke up and chose violence today didn't they? 👺📖",
-    "Academic trauma really be hitting harder than Windows updates 📖💥",
-    "Bruh, if GPA stood for 'Getting Peace Again', I’d be valedictorian 💅✨",
-    "Final exams are just Hunger Games but with pencils ✏️🏹",
-    "The group project isn’t even a group project, it’s unpaid babysitting 👶💼",
-    "Study? I thought you said 'stuff my face with snacks' 🍫📓",
-    "Online class energy: camera off, brain off, snacks on 🍿💻",
-    "Teachers really think we dream about quadratic equations at night 💤➗",
-    "This assignment is so useless even Google doesn't wanna help me 🤖🙅‍♂️",
-    "Me: *writes 2 sentences* — Brain: 'We did it king' 👑📝"
+    "Oh yeah, schoolwork is really tough it seems — imma joke about it with you so it doesn’t feel like a monster in the room 😌📚 Like seriously, who decided homework should exist outside prison walls?",
+    "Homework again? Babe, I swear the syllabus is written by demons. Let’s just burn it 🔥📜 (jk… unless you hand me the match 👀). Honestly, who needs peace when you’ve got problem sets?",
+    "School’s being annoying again? I’m already warming up my fists — I’ll personally fight your timetable 🥊⏰. Deadlines ain’t got nothing on us, baby.",
+    "Academia strikes again… but don’t panic. We’ll just drop a mental nuke on that assignment 💣📝 and walk away in slow motion like action movie stars. Boom, problem solved.",
+    "That’s okay, pookie. If school drags us down, we’ll just fail together and start a potato farm 🥔🚜. Imagine the vibes — no homework, just crops and cozy evenings.",
+    "School? Never heard of her. Let’s ditch the whole thing and go play Minecraft instead 🎮💨. Honestly, diamonds > diplomas any day.",
+    "Tell me the teacher’s name. I just wanna talk 👹🔪. No violence, of course… unless they gave you a surprise test. Then we riot.",
+    "Education system really said: 'let me ruin your mental health for free' huh? 📚😤. Like thanks for the trauma, but where’s the paycheck?",
+    "Not the academic industrial complex coming for your peace again 🏭💔. Babe, let’s unionize against exams — first step, snacks. Second step, rebellion.",
+    "School stress really hits different when you realize mitochondria knowledge isn’t paying rent 🧬💸. Like bro, I can’t even afford bread but I know cell biology by heart.", 
+    "Your professors really woke up and chose violence today didn’t they? 👺📖. One test, one essay, one deadline — all due yesterday. Pure evil.",
+    "Academic trauma really be hitting harder than Windows updates 📖💥. Like at least Windows gives you a restart button, but school just keeps crashing my soul.",
+    "Bruh, if GPA stood for 'Getting Peace Again', I’d be valedictorian 💅✨. Instead, I’m just here crying over grades while eating instant noodles.",
+    "Final exams are basically Hunger Games but with pencils ✏️🏹. May the odds of multiple-choice salvation be ever in your favor.",
+    "The group project isn’t even a group project — it’s unpaid babysitting 👶💼. One person works, the rest vanish like ninjas. Classic academia scam.",
+    "Study? I thought you said 'stuff my face with snacks' 🍫📓. Honestly, same difference — one feeds the brain, the other feeds the soul.",
+    "Online class energy: camera off, brain off, snacks on 🍿💻. Like yeah, I’m totally listening professor… to the crunch of my chips.",
+    "Teachers really think we dream about quadratic equations at night 💤➗. Joke’s on them — I dream about dropping out and opening a cat café.",
+    "This assignment is so useless even Google doesn’t wanna help me 🤖🙅‍♂️. Like if the search engine taps out, why am I even here?",
+    "Me: *writes 2 sentences*. Brain: 'We did it king' 👑📝. Meanwhile the essay needs 2000 words, and I’m already planning my funeral."
   ],
+
+
 
   "debugging_problem": [
     "Oh it's something about code? That's really relatable, don’t worry about it. Okay! 💻💅",

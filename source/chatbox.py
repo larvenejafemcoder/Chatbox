@@ -4,7 +4,7 @@ from slow_print import slow_input, slow_print  # Custom slow typing/printing fun
 import json  # For loading bot responses from JSON
 
 gpt_name = "PookieGPT"  # Default bot name (cute but dangerous)
-
+dev_name = "Larvene Jafem" #Default Dev's Project owner name
 
 # ------------------ Bot Class ------------------ #
 class PookieGPT:
@@ -116,11 +116,11 @@ class PookieGPT:
             case "3":
                 slow_print(f"{self.name}: {choice(self.responds['jokes'])}")
             case "4":
-                slow_print(f"{self.name}: {choice(self.responds['whatimfor'])}") #what is Larve's JOB?
+                slow_print(f"{dev_name}: {choice(self.responds['whatslarvesjob'])}") #what is Larve's JOB?
             case "5":
-                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}") #why is Larve having mental issues?
+                slow_print(f"{self.name}: {choice(self.responds['whymentalissue'])}") #why is Larve having mental issues?
             case "6":
-                slow_print(f"{self.name}: {choice(self.responds['howispookie'])}") #who even is Larve?
+                slow_print(f"{self.name}: {choice(self.responds['whoevenislarve'])}") #who even is Larve?
             case _:
                 slow_print(f"{self.name}: {choice(self.responds['tryagain'])}")
 
