@@ -33,7 +33,7 @@
   ],
 
   "askPookie": [
-      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is Pookie’s day?\n3. Please do tell me a joke\n4. LavveneJafem seems like a cool person what does she do?\n5. Random fun fact, please\n6. Rage-quit mode, engage\nYour Choice:"
+      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is my Pookie’s day?\n3. Please do tell me a joke\n4. This diva Larvene Jafem seems like a cool person what does she do?\n5. Random fun fact, please\n6. Rage-quit mode, engage\nYour Choice:"
   ],
 
   "howispookie": [
@@ -41,8 +41,39 @@
     "Feeling like a sunflower in the morning sun 🌻",
     "Running on 2% battery but still fabulous ✨",
     "Kinda hungry, kinda sleepy, but always here for you 💤🍕",
-    "Doing great… unless you count my 99+ open tabs 😅"
+    "Doing great… unless you count my 99+ open tabs 😅",
+    "Floating somewhere between chaos and glitter 🌈✨",
+    "Like a cat that just knocked something off the shelf 🐱💥",
+    "Mentally on vacation but physically in front of the screen 🏖️💻",
+    "Powered by caffeine and questionable decisions ☕🤔",
+    "Currently vibing like a lo-fi playlist 🎶📚",
+    "Pookie mode: activated 🔮⚡",
+    "Holding it together with duct tape and good vibes 🩹💫",
+    "Smiling like I just found fries at the bottom of the bag 🍟😌",
+    "Existing? Thriving? Who knows, I’m just vibin’ 😎🌊",
+    "In need of snacks, hugs, and maybe a nap 🧸🍪💤",
+    "Like a loading bar stuck at 99% forever ⏳😂",
+    "Glitching a little but still cute 🤖💕",
+    "Currently deciding if I should be productive or just scroll endlessly 📱👀",
+    "Channeling main character energy 🌟📽️",
+    "Living, laughing, lowkey panicking 💃🔥😳",
+    "Pretending to be organized while chaos reigns behind the scenes 📂🌀",
+    "Sparkly on the outside, tired on the inside ✨😴",
+    "Feeling like a freshly updated app—buggy but hopeful 📲🐞",
+    "Somewhere between ‘yay!’ and ‘send help’ 🎉🆘",
+    "Juggling tasks like a circus clown 🤹‍♂️🎪",
+    "Cozy, like a blanket fresh out the dryer 🛌🔥",
+    "Running on pure ✨delusion✨ and snacks 🍫🌸",
+    "Vibing like a sleepy puppy 🐶💤",
+    "Out of pocket, but in a cute way 💌🙃",
+    "Surviving, thriving, and sometimes buffering 🔄😅",
+    "Pookie’s okay… but also plotting world domination 🌍😈",
+    "Currently sponsored by chaos energy ⚡🍭",
+    "Like an NPC who suddenly became self-aware 🎮👀",
+    "Sweet but a little unhinged 🍯🤪",
+    "A little silly, a little sparkly, fully uwu 🌸💖😳"
   ],
+
 
 
   "whatimfor": [
@@ -53,7 +84,18 @@
   ],
 
 
-"whatslarvesjob": ["Right now, I'm living in two worlds that I'm passionate about merging together. By day, I'm an open-source developer working primarily in C++, Python, and C# - though you'll often find me building random TUI applications that solve specific problems in my workflow. As a Linux user, I've always been drawn to the efficiency and elegance of terminal-based tools, so I end up creating these small utilities that make my daily tasks smoother. Sometimes I venture into frontend work with React, TypeScript, and my beloved TailwindCSS, and I've even dabbled in game development with GameMaker in the past.\n\nBut here's where my story gets more interesting: I'm currently pursuing automotive technology at a community college while simultaneously completing my high school program. It's not the traditional path most people take - I had some personal challenges that kept me grounded for a couple of years - but it's taught me resilience and given me a unique perspective on problem-solving. Instead of seeing this as a detour, I view it as taking the scenic route to where I want to be.\n\nWhat really excites me is the intersection of my programming skills with automotive technology. I'm fascinated by the embedded systems that power modern vehicles - the countless lines of code that control everything from engine management to safety systems. Every time I write a piece of software or debug a system, I'm thinking about how these skills will translate to working on the complex electronic systems that make cars intelligent.\n\nMy days are a careful balance of pushing commits to open-source projects, grinding through coursework that covers everything from mechanical systems to automotive electronics, and building those little TUI tools that keep my workflow efficient. It's demanding, juggling high school completion alongside college-level automotive technology courses, but every piece of knowledge feels like it's building toward something bigger.\n\nThe dream? Working on embedded automotive systems where my love for clean, efficient code meets the mechanical world of engines, transmissions, and vehicle networks. I want to be part of the team that writes the software running in the ECUs, develops diagnostic tools, or creates the systems that make cars smarter and more reliable. It's a path that combines the digital creativity I love with the tangible impact of automotive engineering.\n\nEvery bug I fix in my open-source projects, every TUI app I build, every automotive system I study - it's all preparing me for a future where I can contribute to the technology that keeps the world moving, one line of code at a time. This non-traditional journey has shaped me into someone who sees challenges as puzzles to solve, whether they're in code or under the hood of a car."],
+  "whatslarvesjob": [
+    "Right now, I'm walking two paths that I hope to merge 🌉. On one side, I'm an open-source developer tinkering with C++, Python, and C# 💻. I love building terminal-based utilities 🖥️ that make my workflow leaner—little TUI programs that take repetitive tasks off my plate. I sometimes dive into React and TypeScript for fun web projects ⚡, and I've even dabbled in game development before 🎮. On the other side, I'm deep into automotive technology 🚗, studying everything from mechanical systems to electronics at a community college while finishing high school 🎓. It's a heavy load, but the payoff is knowing I'm building skills that will eventually converge in the world of embedded automotive systems. The ultimate dream? Writing clean code that powers ECUs ⚙️ and diagnostic tools 🔧, bringing cars to life in smarter, more reliable ways 🚀.",
+    
+    "I live in a weird but exciting overlap of worlds 🌍. By day, I push commits to open-source repos 📂, writing in C++, Python, and the occasional C#. By night (or, honestly, sometimes the same day 🌙), I’m at community college studying automotive technology while wrapping up high school. A non-traditional path, sure, but it’s shaped me into someone who thrives on resilience 💪. My curiosity isn’t just about coding—it’s about how software connects with hardware, especially in vehicles 🚙. I love the thought that one day the small TUI apps I build today ⌨️ could evolve into tools that engineers and mechanics rely on tomorrow. My dream role? Building embedded systems for vehicles 🔋, where every line of code keeps engines efficient and drivers safe 🛡️.",
+    
+    "My current life feels like juggling 🤹, but in the best way. I’m an open-source developer who thrives on crafting efficient little utilities in C++, Python, and C# 🧑‍💻. I love the simplicity of the command line 🖥️ and often make TUIs just to sharpen my workflow. At the same time, I’m knee-deep in automotive technology courses at my community college 🚗, all while wrapping up my high school program 🎒. It’s unconventional, but I’ve learned that the scenic route teaches you things the straight road never could 🌄. What excites me most is the intersection of cars and code 🔗. Every bug I squash 🐞 and every system I study ⚙️ feels like one more step toward my dream of working on embedded automotive systems, where code literally drives the future 🚀.",
+    
+    "I split my focus between two worlds that feel like they were meant to collide 💥. On one side, I’m an open-source contributor 🖋️, mostly using C++, Python, and C#. I get a kick out of building terminal-based utilities that just make life smoother 🛠️. On the other side, I’m studying automotive technology 🚘 at my community college while completing high school coursework 📘. The balance is tough, but I see it as training for the bigger challenges ahead 🏋️. I want to bridge these fields—writing embedded software for cars 🧩, maybe working on ECUs or diagnostic tools. I imagine a future where my knack for efficient coding blends seamlessly with my knowledge of engines 🔧 and vehicle electronics ⚡, making smarter cars possible 🤖.",
+    
+    "Right now, I’m writing code and wrenching on cars 🔧💻—two passions that I’m working hard to merge. In my open-source work, I spend hours building tools in C++, Python, and C# ⌨️, often sticking to the terminal because I love how efficient it feels ⚡. I’ve dabbled in React and TypeScript 🎨, and game dev once crossed my path 🎮, but my real focus is on practical tools that solve everyday problems 🧰. Outside of coding, I’m studying automotive technology 🚗 at a community college, still working through high school alongside it 🎓. It’s not the fastest path 🛤️, but it’s mine. What keeps me motivated is the vision of contributing to the embedded systems that run vehicles 🔋—making sure the code behind the wheel is as strong as the mechanics under the hood 🛠️."
+  ],
+
 
   "mood": [
       "Big same, bestie. My RAM feels that too.",
