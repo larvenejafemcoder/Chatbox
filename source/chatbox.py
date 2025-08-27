@@ -40,25 +40,20 @@ class PookieGPT:
 
     # ------------------ General Question ------------------ #
     def general_quest(self):
-        # Ask how user is feeling
-        mood = slow_input(f"{self.name}: {choice(self.responds['greeting'])}\nYour Choice: ", self.delay).strip()
-
-        # Map moods to response categories
-        mood_map = {
-            "1": "1",
-            "2": "2",
-            "3": "3",
-        }
-        # Handle numeric moods or keywords
+        # Asks mood
+        mood = slow_input(f"{self.name}: {choice(self.responds['greeting'])}", self.delay).strip()
+        mood_map = {"1": "1", "2": "2", "3": "3"}
         key = mood_map.get(mood)
+
+        # Basic keyword detection
         if not key and ("sad" in mood or "bad" in mood):
             key = "2"
 
-        # Pick response
         if key:
             response = choice(self.responds["health_responses"][key])
         else:
             response = "I couldn't tell how you're feeling, but I'm here anyway. 🌸"
+
         slow_print(f"{self.name}: {response}", self.delay)
 
 
@@ -102,9 +97,9 @@ class PookieGPT:
             "1": "whatimfor",
             "2": "howispookie",
             "3": "tellajoke",
-            "4": "howispookie",
-            "5": "whatimfor",
-            "6": "howispookie"
+            "4": "whatslarvesjob",
+            "5": "whymentalissue",
+            "6": "staterankcommissioner"
             }
         '''
         #Iterate throught the question map and print the response
@@ -118,9 +113,9 @@ class PookieGPT:
             case "4":
                 slow_print(f"{dev_name}: {choice(self.responds['whatslarvesjob'])}") #what is Larve's JOB?
             case "5":
-                slow_print(f"{self.name}: {choice(self.responds['whymentalissue'])}") #why is Larve having mental issues?
+                slow_print(f"{dev_name}: {choice(self.responds['whymentalissue'])}") #why is Larve having mental issues?
             case "6":
-                slow_print(f"{self.name}: {choice(self.responds['whoevenislarve'])}") #who even is Larve?
+                slow_print(f"{self.name}: {choice(self.responds['staterankcommissioner'])}") #who even is Larve?
             case _:
                 slow_print(f"{self.name}: {choice(self.responds['tryagain'])}")
 

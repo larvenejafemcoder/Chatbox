@@ -57,20 +57,21 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
         return True, slow_print("Login successful!")                    # Auth OK
 
 
-# -------------- TESTING --------------
-if __name__ == "__main__":              # Run the following only when this file is executed directly
-    slow_print("Loading rank thresholds...")                # Slowly print a header line
-    slow_print(RankingSystem.load_ranks())                  # Slowly print the ranks list (or [])
+# -------------- FOR TESTING --------------
 
-    slow_print("\nRegistering 'Finley'...")                 # Header for registration test
-    slow_print(RankingSystem.register("Finley", "password123"))  # Call register; then slow_print the *tuple* it returns
+    # -------------- TESTED -------------- #
+    # slow_print("Loading rank thresholds...")                # Slowly print a header line
+    # slow_print(RankingSystem.load_ranks())                  # Slowly print the ranks list (or [])
 
-    slow_print("\nTrying wrong login...")                   # Header for a failed login test
-    slow_print(RankingSystem.login("Finley", "wrongpass"))  # Call login (wrong pass); slow_print the returned tuple
+    # slow_print("\nRegistering 'Finley'...")                 # Header for registration test
+    # slow_print(RankingSystem.register("Finley", "password123"))  # Call register; then slow_print the *tuple* it returns
 
-    slow_print("\nTrying correct login...")                 # Header for a successful login test
-    slow_print(RankingSystem.login("Finley", "password123"))# Call login (correct pass); slow_print the returned tuple
+    # slow_print("\nTrying wrong login...")                   # Header for a failed login test
+    # slow_print(RankingSystem.login("Finley", "wrongpass"))  # Call login (wrong pass); slow_print the returned tuple
 
-    slow_print("\nCurrent users file content:")             # Header for dumping users
-    slow_print(RankingSystem.load_users())                  # Print the whole JSON dict as a Python object (stringified)
-    slow_print(RankingSystem.load_users())                  # Print it again (duplicate output on purpose)
+    # slow_print("\nTrying correct login...")                 # Header for a successful login test
+    # slow_print(RankingSystem.login("Finley", "password123"))# Call login (correct pass); slow_print the returned tuple
+
+    # slow_print("\nCurrent users file content:")             # Header for dumping users
+    # slow_print(RankingSystem.load_users())                  # Print the whole JSON dict as a Python object (stringified)
+    # slow_print(RankingSystem.load_users())                  # Print it again (duplicate output on purpose)

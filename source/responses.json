@@ -33,7 +33,7 @@
   ],
 
   "askPookie": [
-      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is my Pookie’s day?\n3. Please do tell me a joke\n4. This diva Larvene Jafem seems like a cool person what does she do?\n5. Random fun fact, please\n6. Rage-quit mode, engage\nYour Choice:"
+      "Go ahead, ask me a question 📝\n1. What am I for?\n2. How is my Pookie’s day?\n3. Please do tell me a joke\n4. This diva Larvene Jafem seems like a cool person what does she do?\n5. Why is Larvene Dyslexic and Schizo?\n6. Roll a dice \nYour Choice: "
   ],
 
   "howispookie": [
@@ -86,14 +86,14 @@
 
   "whatslarvesjob": [
     "Right now, I'm walking two paths that I hope to merge 🌉. On one side, I'm an open-source developer tinkering with C++, Python, and C# 💻. I love building terminal-based utilities 🖥️ that make my workflow leaner—little TUI programs that take repetitive tasks off my plate. I sometimes dive into React and TypeScript for fun web projects ⚡, and I've even dabbled in game development before 🎮. On the other side, I'm deep into automotive technology 🚗, studying everything from mechanical systems to electronics at a community college while finishing high school 🎓. It's a heavy load, but the payoff is knowing I'm building skills that will eventually converge in the world of embedded automotive systems. The ultimate dream? Writing clean code that powers ECUs ⚙️ and diagnostic tools 🔧, bringing cars to life in smarter, more reliable ways 🚀.",
-    
     "I live in a weird but exciting overlap of worlds 🌍. By day, I push commits to open-source repos 📂, writing in C++, Python, and the occasional C#. By night (or, honestly, sometimes the same day 🌙), I’m at community college studying automotive technology while wrapping up high school. A non-traditional path, sure, but it’s shaped me into someone who thrives on resilience 💪. My curiosity isn’t just about coding—it’s about how software connects with hardware, especially in vehicles 🚙. I love the thought that one day the small TUI apps I build today ⌨️ could evolve into tools that engineers and mechanics rely on tomorrow. My dream role? Building embedded systems for vehicles 🔋, where every line of code keeps engines efficient and drivers safe 🛡️.",
-    
     "My current life feels like juggling 🤹, but in the best way. I’m an open-source developer who thrives on crafting efficient little utilities in C++, Python, and C# 🧑‍💻. I love the simplicity of the command line 🖥️ and often make TUIs just to sharpen my workflow. At the same time, I’m knee-deep in automotive technology courses at my community college 🚗, all while wrapping up my high school program 🎒. It’s unconventional, but I’ve learned that the scenic route teaches you things the straight road never could 🌄. What excites me most is the intersection of cars and code 🔗. Every bug I squash 🐞 and every system I study ⚙️ feels like one more step toward my dream of working on embedded automotive systems, where code literally drives the future 🚀.",
-    
     "I split my focus between two worlds that feel like they were meant to collide 💥. On one side, I’m an open-source contributor 🖋️, mostly using C++, Python, and C#. I get a kick out of building terminal-based utilities that just make life smoother 🛠️. On the other side, I’m studying automotive technology 🚘 at my community college while completing high school coursework 📘. The balance is tough, but I see it as training for the bigger challenges ahead 🏋️. I want to bridge these fields—writing embedded software for cars 🧩, maybe working on ECUs or diagnostic tools. I imagine a future where my knack for efficient coding blends seamlessly with my knowledge of engines 🔧 and vehicle electronics ⚡, making smarter cars possible 🤖.",
-    
     "Right now, I’m writing code and wrenching on cars 🔧💻—two passions that I’m working hard to merge. In my open-source work, I spend hours building tools in C++, Python, and C# ⌨️, often sticking to the terminal because I love how efficient it feels ⚡. I’ve dabbled in React and TypeScript 🎨, and game dev once crossed my path 🎮, but my real focus is on practical tools that solve everyday problems 🧰. Outside of coding, I’m studying automotive technology 🚗 at a community college, still working through high school alongside it 🎓. It’s not the fastest path 🛤️, but it’s mine. What keeps me motivated is the vision of contributing to the embedded systems that run vehicles 🔋—making sure the code behind the wheel is as strong as the mechanics under the hood 🛠️."
+  ],
+
+  "whymentalissue" : [
+    "Well it's a long story but i cannot tell you why i am like this! I'm sorry but this should be kept personal"
   ],
 
 
@@ -171,11 +171,11 @@
 
 
   "greeting": [
-    "System check 🔍 How are your feels running today?\n 1️⃣ Optimized and smooth ⚡\n 2️⃣ Crashing and unstable 💔\n 3️⃣ Idle in standby mode 😐",
-    "Emotional OS status? 🖥️\n 1️⃣ Running stable 🌈\n 2️⃣ Critical errors detected 😢\n 3️⃣ Just background processing 🤷",
-    "Diagnostic mode activated 🛠️ How’s the heart hardware?\n 1️⃣ Fully charged 🔋\n 2️⃣ Low battery warning ⚠️\n 3️⃣ Hovering at 50% 🔄",
-    "Connection test 🌐 What’s your vibe signal?\n 1️⃣ Full bars 📶\n 2️⃣ No service 🚫\n 3️⃣ Weak but holding 📡",
-    "Heartbeat ping 💓 Response required:\n 1️⃣ Thriving in overclock mode 🔥\n 2️⃣ Blue-screening inside 💻😔\n 3️⃣ Running in safe mode 💤"
+    "System check 🔍 How are your feels running today?\n 1️⃣ Optimized and smooth ⚡\n 2️⃣ Crashing and unstable 💔\n 3️⃣ Idle in standby mode 😐 \nYour choice: ",
+    "Emotional OS status? 🖥️\n 1️⃣ Running stable 🌈\n 2️⃣ Critical errors detected 😢\n 3️⃣ Just background processing 🤷 \nYour choice: ",
+    "Diagnostic mode activated 🛠️ How’s the heart hardware?\n 1️⃣ Fully charged 🔋\n 2️⃣ Low battery warning ⚠️\n 3️⃣ Hovering at 50% 🔄 \nYour choice: ",
+    "Connection test 🌐 What’s your vibe signal?\n 1️⃣ Full bars 📶\n 2️⃣ No service 🚫\n 3️⃣ Weak but holding 📡 \nYour choice: ",
+    "Heartbeat ping 💓 Response required:\n 1️⃣ Thriving in overclock mode 🔥\n 2️⃣ Blue-screening inside 💻😔\n 3️⃣ Running in safe mode 💤 \nYour choice: "
   ],
 
 
@@ -291,23 +291,23 @@
 
 
   "talk": [
-    "Spill it, pookie. What's going on?\n1️⃣ School's giving you a mental breakdown again, or is it just Monday?\n2️⃣ Your code's throwing tantrums like a toddler who just dropped their ice cream?\n3️⃣ You're just vibeless and need a motivational slap with a side of caffeine? \nYour Choice:",
-    "Wanna talk? Or just sit in silence like feral raccoons guarding a trash can?\n1️⃣ Rant about school 📚\n2️⃣ Call the code crisis hotline 💻\n3️⃣ Join the existential dread support group (BYO blanket) \nYour Choice:",
-    "Choose wisely, mortal — this choice will be remembered by the chatbox council.\n1️⃣ Academia stress dump with complimentary sarcasm\n2️⃣ Programming rage scream in Dolby Atmos\n3️⃣ Emotional factory reset (warranty void) \nYour Choice:",
-    "Okay, real talk — how are you *really* feeling, pookie?\n1️⃣ School's dragging your soul into a group project from hell?\n2️⃣ Your app's on life support and the plug is looking tempting?\n3️⃣ You're just a sleepy slug with a dream and terrible Wi-Fi? \nYour Choice:",
-    "I'm listening, no judgement (unless you use tabs instead of spaces) 🫣\n1️⃣ School's being toxic again, should I draft the cease-and-desist?\n2️⃣ Code demons got you tweaking at 3:47AM again?\n3️⃣ Brain running on 2% battery and 0% will to live? \nYour Choice:",
-    "So… what's the encrypted tea? 🍵\n1️⃣ Professors acting like anime villains on a budget?\n2️⃣ Runtime error ruined your whole family lineage?\n3️⃣ Burned out like a Pop-Tart abandoned in the toaster since 2003? \nYour Choice:",
-    "Your move, Player One.\n1️⃣ School boss battle (final form, 3 health bars)\n2️⃣ Bug boss battle (rage quit probable)\n3️⃣ Life boss battle (cheat codes patched out) \nYour Choice:",
-    "Input detected. Interrogation mode: ON.\n1️⃣ Report academic casualties\n2️⃣ Debug your sanity before it segfaults\n3️⃣ Request emergency pep talk injection \nYour Choice:",
-    "Welcome to emotional tech support. Current ticket type?\n1️⃣ School's being a CPU hog and throttling your life\n2️⃣ Code's throwing 500 Internal Screams\n3️⃣ Life's giving you a Blue Screen of Feels \nYour Choice:",
-    "Alright soldier, status report.\n1️⃣ Homework airstrike incoming?\n2️⃣ Compiler staging a rebellion?\n3️⃣ Existential weather forecast: 100% dread with a chance of crying? \nYour Choice:",
-    "This is a safe space for chaos.\n1️⃣ School drama worse than a Netflix series?\n2️⃣ Code haunted by the ghosts of if-statements past?\n3️⃣ Soul stuck buffering since 2018? \nYour Choice:",
-    "Alright pookie, pick your poison.\n1️⃣ Teachers treating you like a side quest?\n2️⃣ Debug session turning into a hostage situation?\n3️⃣ Brain running Windows ME? \nYour Choice:",
-    "Time to choose your fighter.\n1️⃣ Education Overlord\n2️⃣ Bug Demon King\n3️⃣ Life, the True Final Boss \nYour Choice:",
-    "Before we proceed, answer this, mortal:\n1️⃣ Did school just hit you with an emotional DDoS?\n2️⃣ Did your program just crash harder than my dating life?\n3️⃣ Or is your heart just on low battery mode? \nYour Choice:",
-    "Incoming vibe check.\n1️⃣ Academic nonsense at DEFCON 1?\n2️⃣ Code collapse detected in sector 7?\n3️⃣ Existential dread hovering overhead like a Wi-Fi signal? \nYour Choice:",
-    "Alright bestie, what's the damage report?\n1️⃣ Education system trying to format your soul?\n2️⃣ Your code acting like a moody teenager?\n3️⃣ Life.exe has encountered an unexpected error? \nYour Choice:",
-    "Spill the digital tea, what's haunting you?\n1️⃣ Academic trauma that's giving war flashbacks?\n2️⃣ Debugging hell that's making you question reality?\n3️⃣ General existence being a whole mood (derogatory)? \nYour Choice:"
+    "Spill it, pookie. What's going on?\n1️⃣ School's giving you a mental breakdown again, or is it just Monday?\n2️⃣ Your code's throwing tantrums like a toddler who just dropped their ice cream?\n3️⃣ You're just vibeless and need a motivational slap with a side of caffeine? \nYour Choice: ",
+    "Wanna talk? Or just sit in silence like feral raccoons guarding a trash can?\n1️⃣ Rant about school 📚\n2️⃣ Call the code crisis hotline 💻\n3️⃣ Join the existential dread support group (BYO blanket) \nYour Choice: ",
+    "Choose wisely, mortal — this choice will be remembered by the chatbox council.\n1️⃣ Academia stress dump with complimentary sarcasm\n2️⃣ Programming rage scream in Dolby Atmos\n3️⃣ Emotional factory reset (warranty void) \nYour Choice: ",
+    "Okay, real talk — how are you *really* feeling, pookie?\n1️⃣ School's dragging your soul into a group project from hell?\n2️⃣ Your app's on life support and the plug is looking tempting?\n3️⃣ You're just a sleepy slug with a dream and terrible Wi-Fi? \nYour Choice: ",
+    "I'm listening, no judgement (unless you use tabs instead of spaces) 🫣\n1️⃣ School's being toxic again, should I draft the cease-and-desist?\n2️⃣ Code demons got you tweaking at 3:47AM again?\n3️⃣ Brain running on 2% battery and 0% will to live? \nYour Choice: ",
+    "So… what's the encrypted tea? 🍵\n1️⃣ Professors acting like anime villains on a budget?\n2️⃣ Runtime error ruined your whole family lineage?\n3️⃣ Burned out like a Pop-Tart abandoned in the toaster since 2003? \nYour Choice: ",
+    "Your move, Player One.\n1️⃣ School boss battle (final form, 3 health bars)\n2️⃣ Bug boss battle (rage quit probable)\n3️⃣ Life boss battle (cheat codes patched out) \nYour Choice: ",
+    "Input detected. Interrogation mode: ON.\n1️⃣ Report academic casualties\n2️⃣ Debug your sanity before it segfaults\n3️⃣ Request emergency pep talk injection \nYour Choice: ",
+    "Welcome to emotional tech support. Current ticket type?\n1️⃣ School's being a CPU hog and throttling your life\n2️⃣ Code's throwing 500 Internal Screams\n3️⃣ Life's giving you a Blue Screen of Feels \nYour Choice: ",
+    "Alright soldier, status report.\n1️⃣ Homework airstrike incoming?\n2️⃣ Compiler staging a rebellion?\n3️⃣ Existential weather forecast: 100% dread with a chance of crying? \nYour Choice: ",
+    "This is a safe space for chaos.\n1️⃣ School drama worse than a Netflix series?\n2️⃣ Code haunted by the ghosts of if-statements past?\n3️⃣ Soul stuck buffering since 2018? \nYour Choice  ",
+    "Alright pookie, pick your poison.\n1️⃣ Teachers treating you like a side quest?\n2️⃣ Debug session turning into a hostage situation?\n3️⃣ Brain running Windows ME? \nYour Choice: ",
+    "Time to choose your fighter.\n1️⃣ Education Overlord\n2️⃣ Bug Demon King\n3️⃣ Life, the True Final Boss \nYour Choice: ",
+    "Before we proceed, answer this, mortal:\n1️⃣ Did school just hit you with an emotional DDoS?\n2️⃣ Did your program just crash harder than my dating life?\n3️⃣ Or is your heart just on low battery mode? \nYour Choice: ",
+    "Incoming vibe check.\n1️⃣ Academic nonsense at DEFCON 1?\n2️⃣ Code collapse detected in sector 7?\n3️⃣ Existential dread hovering overhead like a Wi-Fi signal? \nYour Choice: ",
+    "Alright bestie, what's the damage report?\n1️⃣ Education system trying to format your soul?\n2️⃣ Your code acting like a moody teenager?\n3️⃣ Life.exe has encountered an unexpected error? \nYour Choice: ",
+    "Spill the digital tea, what's haunting you?\n1️⃣ Academic trauma that's giving war flashbacks?\n2️⃣ Debugging hell that's making you question reality?\n3️⃣ General existence being a whole mood (derogatory)? \nYour Choice: "
   ],
 
   "rage_quit": [
