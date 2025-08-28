@@ -57,8 +57,6 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
         return True, slow_print("Login successful!")                    # Auth OK
 
 
-# -------------- FOR TESTING --------------
-
     # -------------- TESTED -------------- #
     # slow_print("Loading rank thresholds...")                # Slowly print a header line
     # slow_print(RankingSystem.load_ranks())                  # Slowly print the ranks list (or [])
@@ -76,19 +74,22 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
     # slow_print(RankingSystem.load_users())                  # Print the whole JSON dict as a Python object (stringified)
     # slow_print(RankingSystem.load_users())                  # Print it again (duplicate output on purpose)
 
+
     @staticmethod
     def registeringUserRank(): # made this since there is no way of inputing user on the terminal 
         rank = RankingSystem() #replace RankingSystem() with rank placeholder
         rank.load_ranks() #proceeds to read the json input of ranksystem.json 
 
-        user_rank = slow_input("Register your username for rankingsytem: ") #ask for user_ranking_registration
+        user_name = slow_input("Register your username for rankingsytem: ") #ask for user_ranking_registration
 
         # Then ask for password
         user_password = slow_input("What password do you want to set? ") # then proceeds to ask for password also
 
         # Register password with rank
         
-        registered = rank.register(user_rank, user_password) #same for load_ranks() but inject the inputs back to the file
+        registered = rank.register(user_name, user_password) #same for load_ranks() but inject the inputs back to the file
+
+        slow_print("Welcome Aboard! You are now Comrade {user_name}!")
         return registered #successfully injected 
 
     @staticmethod
@@ -100,9 +101,26 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
 
         #Then also ask for password
 
-        user_password = slow_input("Hello {user_name}, please enter your password: ")
+        user_password = slow_input(f"Hello {user_name}, please enter your password: ")
 
         loggin_in = rank.login(user_name, user_password) #instead of injecting we take what is available in ranksystem.json and loggin for user 
-        return loggin_in 
+
+        slow_print(f"Welcome back! Comrade {user_name}!")
+        return loggin_in
+
+    # -------- Wrapper Function for Login -------- #
+    @staticmethod
+    def userInitLogin():
+        slow_print("Welcome to the Ranking System!")
+        choice = slow_input("Do you want to (R)egister or (L)ogin? ").strip().lower()
+
+        if choice.startswith("r"):
+            success, msg = RankingSystem.registeringUserRank()
+            return success, msg
+        elif choice.startswith("l"):
+            success, msg = RankingSystem.loggingInToUserRank()
+            return success, msg
+        else:
+            return False, "Invalid choice!"
 
 

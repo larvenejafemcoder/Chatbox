@@ -13,7 +13,7 @@ def main():
     #bot.whatodo()       # bot asks what you wanna do next   
 
     newrank = RankingSystem()
-    newrank.inputUserRank()
+    newrank.userInitLogin()
     
  
     while True:         # endless loop
