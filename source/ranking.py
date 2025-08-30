@@ -7,7 +7,7 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
     RANKS_FILE = "ranksystem.json"  # File path used for *rank thresholds* (⚠ same file as above)
 
     @staticmethod
-    def hash_password(password):    # Utility: convert plaintext password -> SHA-256 hex digest
+    def hash_password(password):    # Utility: convert plain text password -> SHA-256 hex digest
         return hashlib.sha256(password.encode()).hexdigest()
 
     # ---------------- USERS ----------------
@@ -76,7 +76,7 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
 
 
     @staticmethod
-    def registeringUserRank(): # made this since there is no way of inputing user on the terminal 
+    def registeringUserRank(): # made this since there is no way of inputting user on the terminal 
         rank = RankingSystem() #replace RankingSystem() with rank placeholder
         rank.load_ranks() #proceeds to read the json input of ranksystem.json 
 
@@ -103,10 +103,10 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
 
         user_password = slow_input(f"Hello {user_name}, please enter your password: ")
 
-        loggin_in = rank.login(user_name, user_password) #instead of injecting we take what is available in ranksystem.json and loggin for user 
+        logging_in = rank.login(user_name, user_password) #instead of injecting we take what is available in ranksystem.json and logging for user 
 
         slow_print(f"Welcome back! Comrade {user_name}!")
-        return loggin_in
+        return logging_in
 
     # -------- Wrapper Function for Login -------- #
     @staticmethod
