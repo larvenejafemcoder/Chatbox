@@ -89,7 +89,7 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
         
         registered = rank.register(user_name, user_password) #same for load_ranks() but inject the inputs back to the file
 
-        slow_print("Welcome Aboard! You are now Comrade {user_name}!")
+        slow_print(f"Welcome Aboard! You are now Comrade {user_name}!")
         return registered #successfully injected 
 
     @staticmethod
