@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from chatbox import PookieGPT
 from ranking import *
 import time 
