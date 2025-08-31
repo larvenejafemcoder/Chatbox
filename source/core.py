@@ -14,8 +14,7 @@ def main():
     #bot.general_quest() # bot checks your mood
     #bot.whatodo()       # bot asks what you wanna do next   
 
-    newrank = RankingSystem()
-    newrank.userInitLogin()
+    RankingSystem.userInitLogin()
     
  
     while True:         # endless loop
