@@ -77,8 +77,7 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
 
     @staticmethod
     def registeringUserRank(): # made this since there is no way of inputting user on the terminal 
-        rank = RankingSystem() #replace RankingSystem() with rank placeholder
-        rank.load_ranks() #proceeds to read the json input of ranksystem.json 
+        RankingSystem.load_ranks() #proceeds to read the json input of ranksystem.json 
 
         user_name = slow_input("Register your username for rankingsytem: ") #ask for user_ranking_registration
 
@@ -87,15 +86,14 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
 
         # Register password with rank
         
-        registered = rank.register(user_name, user_password) #same for load_ranks() but inject the inputs back to the file
+        registered = RankingSystem.register(user_name, user_password) #same for load_ranks() but inject the inputs back to the file
 
         slow_print(f"Welcome Aboard! You are now Comrade {user_name}!")
         return registered #successfully injected 
 
     @staticmethod
     def loggingInToUserRank(): # the same for registering but for loggin in 
-        rank = RankingSystem() #also the same 
-        rank.load_ranks()
+        RankingSystem.load_ranks()
 
         user_name = slow_input("Hello, welcome back: ")
 
@@ -103,7 +101,7 @@ class RankingSystem:             # Namespaced container for all your ranking/aut
 
         user_password = slow_input(f"Hello {user_name}, please enter your password: ")
 
-        logging_in = rank.login(user_name, user_password) #instead of injecting we take what is available in ranksystem.json and logging for user 
+        logging_in = RankingSystem.login(user_name, user_password) #instead of injecting we take what is available in ranksystem.json and logging for user 
 
         slow_print(f"Welcome back! Comrade {user_name}!")
         return logging_in
