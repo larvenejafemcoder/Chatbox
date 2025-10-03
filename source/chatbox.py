@@ -1,6 +1,7 @@
 from random import choice  # Randomly select items from lists (for varied responses)
 import os  # File path manipulation
 from slow_print import slow_input, slow_print  # Custom slow typing/printing functions
+from ranking import RankingSystem
 import json  # For loading bot responses from JSON
 
 gpt_name = "PookieGPT"  # Default bot name (cute but dangerous)
@@ -24,19 +25,10 @@ class PookieGPT:
             self.responds = {}  # Avoid crashing—fallback to empty dict
 
     # ------------------ Introduction ------------------ #
-    def introduction(self):
+    def introduction(self,username):
         # Picks a random intro line from JSON, prints it slowly
         slow_print(f"{self.name}: {choice(self.responds['introduction'])}", self.delay)
-
-    # ------------------ Username Prompt ------------------ #
-    def user_name(self):
-        # Ask for user's name with a random prompt from JSON
-        ask_prompt = choice(self.responds['username']['name_asking'])
-        username = slow_input(f"{self.name}: {ask_prompt}", self.delay).strip()
-
-        # Pick a random reply template and insert username
-        reply_template = choice(self.responds['username']['return_name'])
-        slow_print(f"{self.name}: {reply_template.format(username=username)}", self.delay)
+        slow_print(f"Hey boss, my name is PookieGPT!")
 
     # ------------------ General Question ------------------ #
     def general_quest(self):

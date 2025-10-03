@@ -1,33 +1,21 @@
 #!/usr/bin/env python3
 
-from chatbox import PookieGPT
-from ranking import *
+from chatbox import *
 import time 
 
-
-
 def main():
-    #bot = PookieGPT()   # make a chatbot instance
+    # login once
+    login_ok, username = RankingSystem.userInitLogin()
 
-    #bot.introduction()  # bot says hello
-    #bot.user_name()     # bot asks your name
-    #bot.general_quest() # bot checks your mood
-    #bot.whatodo()       # bot asks what you wanna do next   
+    time.sleep(1)
+    bot = PookieGPT()
 
-    RankingSystem.userInitLogin()
-    
- 
-    while True:         # endless loop
-        time.sleep(1)   # but it just sleeps, doesn’t do anything
-        
-
-
-
+    bot.introduction(username)
+    bot.general_quest()
+    bot.whatodo()
 
 if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
         PookieGPT().rage_quit()
-
-
